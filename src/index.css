@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+html {
+  font-size: 10px;
+}
+body {
+  background-color: #f5f9ff;  
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.Menu_home__3dMt_ a {
+    margin-left: -95px;
+}
+
+h1, h2 {
+  font-weight: 600;
+  color: #474747;
+}
+h1 {
+  font-size: 1.7rem;
+  margin-bottom: 2.2rem;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1.8rem;
+}
+
+h1 img {
+  width: 2rem;
+  margin-left: 1rem;
+}
+
+.marginBottom {
+  margin-bottom: 1.6rem;
+}
+.box {
+  background-color: #fff;
+  box-shadow: 0 2px 8px 2px rgba(0,0,0, 0.05);
+  position: relative;
+}
+.box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.wing-section {
+    background: white;
+}
+
+
+.wing-section-top {
+    text-align: center;
+    padding-top: 39px;
+}
+
+.wing-section-top h4 {
+    color: #333333;
+    font-size: 25px;
+}
+
+.wing-section-top h5 {
+    color: #888888;
+    font-size: 19px;
+    font-weight: 100;
+    padding-top: 20px;
+
+
+}
+
+.wing-section-top h6 {
+    color: #4d81b5;
+    font-size: 15px;
+    padding-top: 15px;
+}
+.wing-section-top p {
+    color: #306ee7;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wing-section-top button {
+    background: none;
+    border: 1px solid #306ee7;
+    color: #306ee7;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 7px 51px;
+}
+
+.wing-section-bottom {
+    background: #c6c9d3;
+
+
+    padding: 18px 0px;
+    margin-top: 25px;
+}
+
+.wing-section-bottom h4 {
+    color: #49577e;
+    padding-left: 22px;
+}
+
+.wing-section-bottom ul {
+    list-style-type: none;
+    padding-left: 22px !important;
+        padding-top: 8px !important;
+}
+
+.wing-section-bottom ul li {
+    color: #49577e;
+        font-weight: 500;
+    padding-bottom: 4px;
+font-size: 18px;
+
+}
+
+.wing-section:hover .wing-section-bottom {
+    margin-top: 53px;
+}
+
+.wing-section:hover .wing-section-top button {
+    background: #306ee7;
+    color: white;
+    transition: 1s;
+}
+
+.section1-heding a {
+    font-size: 30px;
+    color: #6792f7;
+}
+.section1-heding {
+    padding-left: 30px;
+}
+.section1-heding h4 {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.section1-content {
+    margin-top: 55px;
+}
+
+.wing-section:hover {
+    height: 630px !IMPORTANT;
+    -webkit-transform: translate(-7px, -15px);
+    transform: translate(-7px, -15px);
+    transition: 1s;
+    width: 380px;
+    box-shadow: 0 0 5px black;
+    position: relative !important;
+    z-index: 99999;
+}
+.wing-section.wing-section3 {
+    position: relative;
+    right: 29px;
+}
+
+.wing-section.wing-section1 {
+    position: relative;
+    left: 29px;
+}
+
+li.wing-li {
+    margin-bottom: 115px;
+}
+.wing-section-bottom ul {
+    list-style-type: none;
+    padding-top: 8px;
+    padding: 0;
+}
+
+
+
+.wing-section-bottom ul li span i {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.wing-section-bottom-footer {
+    border-top: 1px solid white;
+    padding: 18px 22px 0px;
+    margin-top: 24px;
+}
+
+.wing-section-bottom-footer p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: #49577e;
+    font-size: 18px;
+    font-weight: 500;
+}
+img.star_icon {
+    position: absolute;
+    right: 70px;
+    width: 30px;
+}
+@media (min-width: 1500px) {
+  html {
+    font-size: 12px;    
+  }
+}
+
+@media (max-width: 767px) {
+  h1, h2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  h1 {
+    padding-top: 1rem;
+  }
+  .box {
+    box-shadow: none;
+  }
+}
